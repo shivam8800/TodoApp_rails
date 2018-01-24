@@ -1,0 +1,6 @@
+<h1>Here we found all todos</h1>
+
+<% @todo.each do |f| %>
+    <%= f.id %> <b>name:-</b> <%= f.name %><br>
+    <b>description:-</b> <%= f.description %><br><br><br>
+<% end %>

@@ -35,8 +35,10 @@ class TodosController < ApplicationController
     end
     #for showing all data in a page means from this function we can see all todos
     def index
-        @todo = Todo.all
+        @todos = Todo.all
     end
+
+    
     #private function we only access in current class
     private
         #when we saved data to database then we required current information which would be used by rendring page so for that page we have to pass an argument of such information

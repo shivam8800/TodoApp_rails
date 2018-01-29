@@ -1,3 +1,43 @@
+#Topic to be discuss
+-Gemfile
+-rubygems.org
+-database.yml file
+-app folder
+-class names
+-snake case & camel case
+-naming of classes
+-we will write everything out, create files, no generater
+-bundler
+
+#Full of magic !!!
+
+Write everything out - so we understand everything
+
+Migrations -> these are tracked by file name
+
+
+#M V C
+
+Migrations - files that we used to create and update database
+Class - class a collection of methods or collections of functionality
+
+articles_controller -> snake case
+ApplicationController -> camel case
+
+
+#DEPLOY APPLICATION  TO PRODUCTION
+
+In Development - You have to  start a local webserver in order to access the  application form the web/browser
+
+In Production - you want to have to webserver running 24/7 so the web application can be accessed at all times
+
+In development - the database can be updated at will by test data, signups etc, you can also delete all data and restart 
+
+In production - you want to keep the production database clean, you want only production data and only some initial test data in there
+
+we will use Heruko as our production hosting service, Since it's free for starter apps and easy to get started with
+
+
 #create a new todo resource
 
 -Learn CRUD -database operations

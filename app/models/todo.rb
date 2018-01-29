@@ -8,4 +8,6 @@ class Todo < ApplicationRecord
 
     #we also have to put data in description field
     validates :description, presence: true
+
+    belongs_to :user
 end
